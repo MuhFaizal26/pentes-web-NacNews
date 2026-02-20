@@ -53,7 +53,7 @@ Proses dumping memunculkan beberapa baris entri data. Pada tabel dengan ID 3, ka
 * **CVSS Vector:** `CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N`
 
 ### Saran Rekomendasi Mitigasi
-1. **Gunakan Prepared Statements (Parameterized Queries):** Ini adalah pertahanan paling efektif. Pastikan *query* pencarian di-*backend* dipisahkan dari input pengguna, sehingga database menganggap input tersebut murni sebagai string data, bukan sebagai perintah eksekusi (SQL).
-2. **Validasi dan Sanitasi Input:** Terapkan filter yang ketat pada kolom pencarian. Tolak karakter khusus (seperti tanda kutip tunggal `'`, titik koma `;`, atau *dash* ganda `--`) yang sering digunakan untuk memanipulasi struktur SQL.
-3. **Prinsip Hak Akses Minimum (Least Privilege):** Konfigurasikan akun database yang digunakan oleh aplikasi web agar hanya memiliki hak akses baca/tulis ke tabel yang diperlukan (seperti `articles`). Aplikasi web publik tidak seharusnya memiliki hak akses untuk membaca tabel internal seperti `internal_memos`.
-4. **Implementasikan WAF (Web Application Firewall):** Gunakan WAF untuk mendeteksi dan memblokir *payload* injeksi otomatis dari *tools* seperti `sqlmap` sebelum mencapai *server* aplikasi.
+1. Gunakan Prepared Statements (Parameterized Queries): Ini adalah pertahanan paling efektif. Pastikan query pencarian di-backend dipisahkan dari input pengguna, sehingga database menganggap input tersebut murni sebagai string data, bukan sebagai perintah eksekusi (SQL).
+2. Validasi dan Sanitasi Input: Terapkan filter yang ketat pada kolom pencarian. Tolak karakter khusus (seperti tanda kutip tunggal ', titik koma ;, atau dash ganda --) yang sering digunakan untuk memanipulasi struktur SQL.
+3. Prinsip Hak Akses Minimum (Least Privilege): Konfigurasikan akun database yang digunakan oleh aplikasi web agar hanya memiliki hak akses baca/tulis ke tabel yang diperlukan (seperti articles). Aplikasi web publik tidak seharusnya memiliki hak akses untuk membaca tabel internal seperti internal_memos.
+4. Implementasikan WAF (Web Application Firewall): Gunakan WAF untuk mendeteksi dan memblokir payload injeksi otomatis dari tools seperti sqlmap sebelum mencapai server aplikasi.
