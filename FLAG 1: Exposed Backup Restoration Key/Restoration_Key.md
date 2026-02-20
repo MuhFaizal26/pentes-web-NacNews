@@ -34,4 +34,5 @@ Terakhir, kami membaca isi file SQL yang berhasil diunduh menggunakan perintah `
 ![Cat Database](membaca_database.png)
 
 **Bukti Flag Benar:**
+
 ![Flag](flag_nac_restoration_2024.jpeg)
