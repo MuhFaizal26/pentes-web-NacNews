@@ -36,3 +36,17 @@ Terakhir, kami membaca isi file SQL yang berhasil diunduh menggunakan perintah `
 **Bukti Flag Benar:**
 
 ![Flag](flag_nac_restoration_2024.jpeg)
+
+---
+
+### Vulnerability Assessment
+* **Vulnerability:** Information Disclosure / Sensitive Data Exposure
+* **Severity:** High
+* **CVSS v4.0 Score:** **8.7 (High)**
+* **CVSS Vector:** `CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N`
+
+
+### Saran Rekomendasi Mitigasi
+1. **Pindahkan File Sensitif:** Segera hapus atau pindahkan direktori `/old_backup/` beserta file `database.sql.bak` ke luar dari *web root directory* (misal: di luar `/var/www/html/`) agar tidak dapat diakses langsung melalui URL publik.
+2. **Hindari Security by Obscurity:** Jangan menggunakan file `robots.txt` untuk menyembunyikan direktori atau file sensitif. File ini ditujukan untuk mesin pencari, namun justru sering dijadikan target utama enumerasi oleh *attacker*.
+3. **Hapus Komentar Sensitif:** Pastikan tidak ada komentar yang mengandung kredensial, *identifier* sistem, atau *hint* yang disandikan (seperti Base64) di dalam *source code* atau file publik seperti `robots.txt`.
