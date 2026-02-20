@@ -45,6 +45,7 @@ Terakhir, kami membaca isi file SQL yang berhasil diunduh menggunakan perintah `
 * **CVSS v4.0 Score:** **8.7 (High)**
 * **CVSS Vector:** `CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N`
 
+![cvss](cvss_flag1.png)
 
 ### Saran Rekomendasi Mitigasi
 1. **Pindahkan File Sensitif:** Segera hapus atau pindahkan direktori `/old_backup/` beserta file `database.sql.bak` ke luar dari *web root directory* (misal: di luar `/var/www/html/`) agar tidak dapat diakses langsung melalui URL publik.
