@@ -41,7 +41,7 @@ Langkah selanjutnya adalah mengekstrak (dump) seluruh isi dari tabel internal_me
 Proses dumping memunculkan beberapa baris entri data. Pada tabel dengan ID 3, kami menemukan memo dengan prioritas critical bersubjek Project Lighthouse - Confidential. Di dalam kolom content, tertulis dengan jelas instruksi bahwa nama proyek (codename) tersebut dijaga ketat agar tetap rahasia.
 ![hasil internal memos](hasil_internal_memos.png)
 
-**Bukti Flag Benar:**
+**🚩 Bukti Flag Benar:**
 ![Flag 2](flag2_project_lighthouse.jpeg)
 
 ---
@@ -51,6 +51,7 @@ Proses dumping memunculkan beberapa baris entri data. Pada tabel dengan ID 3, ka
 * **Severity:** High
 * **CVSS v4.0 Score:** **7.1 (High)**
 * **CVSS Vector:** `CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N`
+![cvss flag 2](cvss_flag2.png)
 
 ### Saran Rekomendasi Mitigasi
 1. Gunakan Prepared Statements (Parameterized Queries): Ini adalah pertahanan paling efektif. Pastikan query pencarian di-backend dipisahkan dari input pengguna, sehingga database menganggap input tersebut murni sebagai string data, bukan sebagai perintah eksekusi (SQL).
