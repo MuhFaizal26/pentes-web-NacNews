@@ -38,7 +38,7 @@ Menggabungkan informasi direktori `/old_backup/` dan file `database.sql.bak`, ka
 Terakhir, kami membaca isi file SQL yang berhasil diunduh menggunakan perintah `cat database.sql.bak`. Di bagian *header* file tersebut, kami langsung menemukan *Backup restoration key* yang menjadi target kami.
 ![Cat Database](membaca_database.png)
 
-**Bukti Flag Benar:**
+**🚩 Bukti Flag Benar:**
 
 ![Flag](flag_nac_restoration_2024.jpeg)
 
