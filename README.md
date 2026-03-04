@@ -30,20 +30,20 @@ Klik flag yang ingin kamu lihat:
 
 ## 📊 Progress Tracker
 
-| Flag | Status       | Category              | Difficulty |
-| ---- | ------------ | --------------------- | ---------- |
-| 1    | ✅ Completed  | TBD                   | TBD        |
-| 2    | ✅ Completed  | TBD                   | TBD        |
-| 3    | ✅ Completed  | TBD                   | TBD        |
-| 4    | ✅ Completed  | Broken Authentication | Medium     |
-| 5    | ✅ Completed  | TBD                   | TBD        |
-| 6    | ✅ Completed  | TBD                   | TBD        |
-| 7    | ✅ Completed  | XXE                   | High       |
-| 8    | ✅ Completed  | TBD                   | TBD        |
-| 9    | ⏳ Not Solved | –                     | –          |
-| 10   | ⏳ Not Solved | –                     | –          |
-| 11   | ⏳ Not Solved | –                     | –          |
-| 12   | ⏳ Not Solved | –                     | –          |
+| Flag | Title                                 | Status       |
+| ---- | ------------------------------------- | ------------ |
+| 1    | Exposed Backup Restoration Key        | ✅ Completed  |
+| 2    | Project_Top-Secret                    | ✅ Completed  |
+| 3    | Hidden Service Account Recovery Email | ✅ Completed  |
+| 4    | Articles Draft                        | ✅ Completed  |
+| 5    | TBD                                   | ✅ Completed  |
+| 6    | API Secret Disclosure                 | ✅ Completed  |
+| 7    | RSS Import Exploit                    | ✅ Completed  |
+| 8    | TBD                                   | ✅ Completed  |
+| 9    | –                                     | ⏳ Not Solved |
+| 10   | –                                     | ⏳ Not Solved |
+| 11   | –                                     | ⏳ Not Solved |
+| 12   | –                                     | ⏳ Not Solved |
 
 ---
 ## 🎯 Objective
