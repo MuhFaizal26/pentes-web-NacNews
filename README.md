@@ -12,13 +12,13 @@ Progress saat ini: **8 / 11 Flag Completed**
 
 Klik flag yang ingin kamu lihat:
 
-* [FLAG 1 – Exposed Backup Restoration Key](./FLAG%201:%20Exposed%20Backup%20Restoration%20Key/Restoration_Key.md))
-* [FLAG 2 – Title Flag 2](./path/to/flag2)
-* [FLAG 3 – Title Flag 3](./path/to/flag3)
-* [FLAG 4 – Articles Draft](./path/to/flag4)
+* [FLAG 1 – Exposed Backup Restoration Key](./FLAG%201:%20Exposed%20Backup%20Restoration%20Key/Restoration_Key.md)
+* [FLAG 2 – Project_Top-Secret](./FLAG%202:%20Project_Top-Secret/project_top-secret.md)
+* [FLAG 3 – Hidden Service Account Recovery Email](./FLAG%203:%20Hidden%20Service%20Account%20Recovery%20Email/recovery_email.md)
+* [FLAG 4 – Articles Draft](./FLAG%204:%20Articles%20Draft/Articles_Draft.md)
 * [FLAG 5 – Title Flag 5](./path/to/flag5)
-* [FLAG 6 – Title Flag 6](./path/to/flag6)
-* [FLAG 7 – RSS Injection](./path/to/flag7)
+* [FLAG 6 – Api Secret](./FLAG%206:%20API%20Secret%20Disclosure/Api_Secret.md))
+* [FLAG 7 – RSS Injection](./FLAG%207:%20RSS%20Import%20Exploit/main.md)
 * [FLAG 8 – Title Flag 8](./path/to/flag8)
 * [FLAG 9 – Coming Soon](./path/to/flag9)
 * [FLAG 10 – Coming Soon](./path/to/flag10)
