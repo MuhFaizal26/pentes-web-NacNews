@@ -17,7 +17,7 @@ Klik flag yang ingin kamu lihat:
 * [FLAG 3 – Hidden Service Account Recovery Email](./FLAG%203:%20Hidden%20Service%20Account%20Recovery%20Email/recovery_email.md)
 * [FLAG 4 – Articles Draft](./FLAG%204:%20Articles%20Draft/Articles_Draft.md)
 * [FLAG 5 – Title Flag 5](./path/to/flag5)
-* [FLAG 6 – Api Secret](./FLAG%206:%20API%20Secret%20Disclosure/Api_Secret.md))
+* [FLAG 6 – Api Secret](./FLAG%206:%20API%20Secret%20Disclosure/Api_Secret.md)
 * [FLAG 7 – RSS Injection](./FLAG%207:%20RSS%20Import%20Exploit/main.md)
 * [FLAG 8 – Title Flag 8](./path/to/flag8)
 * [FLAG 9 – Coming Soon](./path/to/flag9)
