@@ -1,0 +1,57 @@
+
+# 🏴 CTF Writeups – Nac News Challenge
+
+Repository ini berisi dokumentasi dan *writeup* untuk seluruh tantangan CTF pada aplikasi **Nac News**.
+
+Total challenge: **11 Flag**
+Progress saat ini: **8 / 11 Flag Completed**
+
+---
+
+## 📌 Quick Access – All Flags
+
+Klik flag yang ingin kamu lihat:
+
+* [FLAG 1 – Exposed Backup Restoration Key](./FLAG%201:%20Exposed%20Backup%20Restoration%20Key/Restoration_Key.md)
+* [FLAG 2 – Project_Top-Secret](./FLAG%202:%20Project_Top-Secret/project_top-secret.md)
+* [FLAG 3 – Hidden Service Account Recovery Email](./FLAG%203:%20Hidden%20Service%20Account%20Recovery%20Email/recovery_email.md)
+* [FLAG 4 – Articles Draft](./FLAG%204:%20Articles%20Draft/Articles_Draft.md)
+* [FLAG 5 – Title Flag 5](./path/to/flag5)
+* [FLAG 6 – Api Secret](./FLAG%206:%20API%20Secret%20Disclosure/Api_Secret.md)
+* [FLAG 7 – RSS Injection](./FLAG%207:%20RSS%20Import%20Exploit/main.md)
+* [FLAG 8 – Title Flag 8](./path/to/flag8)
+* [FLAG 9 – Coming Soon](./path/to/flag9)
+* [FLAG 10 – Coming Soon](./path/to/flag10)
+* [FLAG 11 – Coming Soon](./path/to/flag11)
+* [FLAG 12 – Coming Soon](./path/to/flag12)
+
+
+---
+
+## 📊 Progress Tracker
+
+| Flag | Title                                 | Status       |
+| ---- | ------------------------------------- | ------------ |
+| 1    | Exposed Backup Restoration Key        | ✅ Completed  |
+| 2    | Project_Top-Secret                    | ✅ Completed  |
+| 3    | Hidden Service Account Recovery Email | ✅ Completed  |
+| 4    | Articles Draft                        | ✅ Completed  |
+| 5    | TBD                                   | ✅ Completed  |
+| 6    | API Secret Disclosure                 | ✅ Completed  |
+| 7    | RSS Import Exploit                    | ✅ Completed  |
+| 8    | TBD                                   | ✅ Completed  |
+| 9    | –                                     | ⏳ Not Solved |
+| 10   | –                                     | ⏳ Not Solved |
+| 11   | –                                     | ⏳ Not Solved |
+| 12   | –                                     | ⏳ Not Solved |
+
+---
+## 🎯 Objective
+
+Tujuan repository ini:
+
+* Mendokumentasikan teknik eksploitasi secara sistematis
+* Menjadi referensi pembelajaran keamanan aplikasi web
+* Menyediakan navigasi cepat antar flag
+
+---
