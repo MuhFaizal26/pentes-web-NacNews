@@ -59,6 +59,7 @@ Setelah masuk ke dalam *Dashboard*, kami memeriksa fitur manajemen konten dan me
 * **Severity:** High (Penyerang dapat mengambil alih akun dengan hak akses tinggi)
 * **CVSS v4.0 Score:** **8.8(High)**
 * **CVSS Vector:** `CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:L/VA:N/SC:N/SI:N/SA:N`
+![Bukti Flag](cvss_flag4.png)
 
 ### Saran Rekomendasi Mitigasi
 1. **Penerapan Kebijakan Sandi yang Kuat (Strong Password Policy)**
