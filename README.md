@@ -4,7 +4,7 @@
 Repository ini berisi dokumentasi dan *writeup* untuk seluruh tantangan CTF pada aplikasi **Nac News**.
 
 Total challenge: **11 Flag**
-Progress saat ini: **9 / 11 Flag Completed**
+Progress saat ini: **11 / 11 Flag Completed**
 
 ---
 
@@ -40,8 +40,8 @@ Klik flag yang ingin kamu lihat:
 | 7    | RSS Import Exploit                    | ✅ Completed  |
 | 8    | Decrypting Admin Secrets              | ✅ Completed  |
 | 9    | Unauthorized File Access              | ✅ Completed  |
-| 10   | –                                     | ⏳ Not Solved |
-| 11   | –                                     | ⏳ Not Solved |
+| 10   | –                                     | ✅ Completed  |
+| 11   | –                                     | ✅ Completed  |
 
 ---
 ## 🎯 Objective
