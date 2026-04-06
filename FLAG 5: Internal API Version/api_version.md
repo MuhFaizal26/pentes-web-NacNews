@@ -41,8 +41,9 @@ Setelah menekan tombol **Preview**, *server* NacNews meneruskan permintaan kita 
 ### Vulnerability Assessment
 * **Vulnerability:** Server-Side Request Forgery (SSRF)
 * **Severity:** High (Penyerang dapat mengakses dan memetakan layanan di jaringan internal yang terisolasi)
-* **CVSS v4.0 Score:** **7.7 (High)**
+* **CVSS v4.0 Score:** **7.1 (High)**
 * **CVSS Vector:** `CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:L/SI:N/SA:N`
+![cvss](cvss_flag5.png).
 
 ### Saran Rekomendasi Mitigasi
 1. **Validasi dan Filter Input URL (Allowlisting/Denylisting)**
