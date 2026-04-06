@@ -57,7 +57,7 @@ Setelah masuk ke dalam *Dashboard*, kami memeriksa fitur manajemen konten dan me
 ### Vulnerability Assessment
 * **Vulnerability:** Broken Authentication (Weak Password Policy) & Information Disclosure
 * **Severity:** High (Penyerang dapat mengambil alih akun dengan hak akses tinggi)
-* **CVSS v4.0 Score:** **7.1 (High)**
+* **CVSS v4.0 Score:** **8.8(High)**
 * **CVSS Vector:** `CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:L/VA:N/SC:N/SI:N/SA:N`
 
 ### Saran Rekomendasi Mitigasi
