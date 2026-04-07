@@ -22,7 +22,7 @@ Klik flag yang ingin kamu lihat:
 * [FLAG 8 –  Decrypting Admin Secrets](./FLAG%208%3A%20Decrypting%20Admin%20Secrets/admin_secrets.md)
 * [FLAG 9 – Unautorized File Access](./FLAG%209%3A%20Unauthorized%20File%20Access/main.md)
 * [FLAG 10 – Coming Soon](./path/to/flag10)
-* [FLAG 11 – Top Secret Project Codename](./FLAG%2011%3A%20Top%20Secret%20Project%20Codename)
+* [FLAG 11 – Top Secret Project Codename](./FLAG%2011%3A%20Top%20Secret%20Project%20Codename/final.md)
 
 
 ---
