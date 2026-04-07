@@ -18,9 +18,9 @@ Dengan memanfaatkan celah tersebut, kami mulai melakukan enumerasi direktori unt
 
 Kami menyadari bahwa input pada field Target Host/IP dapat dimanipulasi dengan menambahkan perintah tambahan menggunakan separator (;).
 
-'''
+```
 127.0.0.1; ls /
-'''
+```
 
 Hasilnya, server mengeksekusi perintah ls dan menampilkan daftar direktori root sistem.
 
@@ -30,9 +30,10 @@ Hasilnya, server mengeksekusi perintah ls dan menampilkan daftar direktori root 
 
 Dari hasil enumerasi, kami menemukan file mencurigakan bernama:
 
-'''
+```
 seed.php
-'''
+```
+
 ![seed.php](seed.png)
 
 File ini tampak seperti file inisialisasi data (seeding) yang biasanya digunakan developer untuk mengisi database awal.
@@ -41,15 +42,16 @@ File ini tampak seperti file inisialisasi data (seeding) yang biasanya digunakan
 
 Kami kemudian membaca isi file tersebut menggunakan:
 
-'''
+```
 127.0.0.1; cat /seed.php
-'''
+```
 
 Hasilnya menampilkan berbagai kredensial user, termasuk akun admin beserta password-nya dalam bentuk plaintext sebelum hashing.
 
 Di dalam file tersebut ditemukan:
 * Username : admin
 * Password : 'Xk9#mQ2$vL8@pR5!nW3zT7'
+  
 ![kredensial user](admin.jpg)
 
 **4. Login sebagai Admin**
@@ -67,6 +69,7 @@ Setelah berhasil login sebagai admin, kami mendapatkan akses ke fitur atau halam
 ![vault](vault.jpg)
 
 **🚩 Bukti Flag Benar:**
+
 ![Flag 11](flag11.jpg)
 
 ---
@@ -77,6 +80,7 @@ Setelah berhasil login sebagai admin, kami mendapatkan akses ke fitur atau halam
 * **Severity:** High
 * **CVSS v4.0 Score:** **8.7 (High)**
 * **CVSS Vector:** `CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N`
+  
 ![cvss flag 11](cvss11.jpg)
 
 ### Saran Rekomendasi Mitigasi
