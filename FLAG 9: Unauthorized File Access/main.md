@@ -54,7 +54,8 @@ Vulnerability Assessment
 Vulnerability	Local File Inclusion (LFI)
 Severity	High
 CVSS v4.0 Score	8.7 (High)
-CVSS Vector	CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N
+<img width="1074" height="534" alt="{79C0A50A-AB2A-4998-AFC1-30822CC16821}" src="https://github.com/user-attachments/assets/ac90ac00-7ef9-41c3-8481-9861d9aff562" />
+
 
 Saran Rekomendasi Mitigasi
 1.	Validasi dan Sanitasi Input: Terapkan whitelist validasi untuk parameter page. Hanya izinkan nama halaman yang sudah ditentukan sebelumnya, dan tolak semua input yang mengandung karakter path traversal seperti ../, ..\ atau URL encoding-nya.
