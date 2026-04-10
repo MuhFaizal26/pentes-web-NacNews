@@ -21,7 +21,7 @@ Klik flag yang ingin kamu lihat:
 * [FLAG 7 – RSS Injection](./FLAG%207:%20RSS%20Import%20Exploit/main.md)
 * [FLAG 8 –  Decrypting Admin Secrets](./FLAG%208%3A%20Decrypting%20Admin%20Secrets/admin_secrets.md)
 * [FLAG 9 – Unautorized File Access](./FLAG%209%3A%20Unauthorized%20File%20Access/main.md)
-* [FLAG 10 – Coming Soon](./path/to/flag10)
+* [FLAG 10 – Exploit by Command Injection](./FLAG%2010%3A%20Exploit%20by%20Command%20Injection/Cmmndinjection.md)
 * [FLAG 11 – Top Secret Project Codename](./FLAG%2011%3A%20Top%20Secret%20Project%20Codename/final.md)
 
 
@@ -40,8 +40,8 @@ Klik flag yang ingin kamu lihat:
 | 7    | RSS Import Exploit                    | ✅ Completed  |
 | 8    | Decrypting Admin Secrets              | ✅ Completed  |
 | 9    | Unauthorized File Access              | ✅ Completed  |
-| 10   | –                                     | ✅ Completed  |
-| 11   | –                                     | ✅ Completed  |
+| 10   | Exploit by Command Injection          | ✅ Completed  |
+| 11   | Top Secret Project Codename           | ✅ Completed  |
 
 ---
 ## 🎯 Objective
